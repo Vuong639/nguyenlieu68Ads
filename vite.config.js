@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/nguyenlieu68Ads/',   // <- BẮT BUỘC cho GitHub Pages kiểu project
+  base: '/',   // <- BẮT BUỘC cho GitHub Pages kiểu project
 })
