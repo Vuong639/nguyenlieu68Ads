@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QuangDa Shoes – Giày da thủ công, bền đẹp, chuẩn phong cách</title>
+  <meta name="description"
+    content="Giày da thủ công từ da full‑grain, bảo hành 12 tháng, đổi trả 7 ngày. Mua ngay Oxford, Derby, Loafer – giao hàng toàn quốc." />
+  <link rel="canonical" href="https://example.com/" />
+  <meta property="og:title" content="QuangDa Shoes – Giày da thủ công" />
+  <meta property="og:description" content="Da full‑grain, Goodyear welted, bảo hành 12 tháng. Đặt mua ngay!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop" />
+  <meta name="theme-color" content="#8b5e3c" />
+
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            leather: {
+              50: '#f8f3ef', 100: '#efe3d8', 200: '#e2c7b2', 300: '#d4ab8d', 400: '#c78f68',
+              500: '#b97447', 600: '#a05e37', 700: '#8b5e3c', 800: '#65432c', 900: '#4a321f'
+            }
+          },
+          fontFamily: { display: ['ui-serif', 'Georgia', 'serif'], body: ['ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto'] }
+        }
+      }
+    }
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth
+    }
+
+    .nav-active {
+      color: rgb(185 116 71) !important
+    }
+  </style>
+  <!-- JSON-LD (Organization + Product) -->
+  <script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Organization",
+"name": "QuangDa Shoes",
+"url": "https://example.com",
+"logo": "https://images.unsplash.com/photo-1520975867597-0af37a2b7e2f?q=80&w=600&auto=format&fit=crop"
+}
+</script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
